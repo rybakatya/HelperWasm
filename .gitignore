@@ -1,0 +1,79 @@
+## Ignore Visual Studio user-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+out/
+.vs/
+
+## Visual Studio build folders
+[Bb]uild/
+[Ll]og/
+*.log
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.nuget.props
+*.nuget.targets
+
+## VS Code workspace
+.vscode/
+
+## .NET Core project lock and secrets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dbmdl
+*.bak
+*.backup
+*.dmp
+*.pdb
+
+## ASP.NET / Blazor publish output
+wwwroot/dist/
+wwwroot/build/
+wwwroot/vendor/
+
+## Publish folder
+**/publish/
+**/PublishOutput/
+
+## Rider IDE
+.idea/
+
+## JetBrains Rider and VS Code folders
+*.sln.iml
+
+## Windows hidden files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## macOS hidden files
+.DS_Store
+
+## Node / Yarn / npm (if using for JS interop or PWA features)
+node_modules/
+dist/
+yarn.lock
+package-lock.json
+
+## Log and diagnostic files
+*.log
+*.tlog
+
+## WebAssembly cache files
+wwwroot/_framework/blazor.boot.json
+wwwroot/_framework/blazor.webassembly.js
+wwwroot/_framework/*.wasm
+wwwroot/_framework/*.dll
+wwwroot/_framework/*.pdb
